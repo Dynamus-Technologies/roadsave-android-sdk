@@ -27,18 +27,18 @@
 
 From the [Releases](../../releases) page, download:
 
-- `roadsave-sdk-4.0.0.aar`
-- `roadsave-sdk-4.0.0.aar.sha256`
+- `roadsave-sdk-4.0.0-rc.1`
+- `roadsave-sdk-4.0.0-rc.1`
 
 Verify the checksum:
 
 ```sh
-shasum -a 256 -c roadsave-sdk-4.0.0.aar.sha256
+shasum -a 256 -c roadsave-sdk-4.0.0-rc.1
 ```
 
 ### 2. Drop the AAR into your app
 
-Place `roadsave-sdk-4.0.0.aar` in your app module's `libs/` directory (create it if needed).
+Place `roadsave-sdk-4.0.0-rc.1` in your app module's `libs/` directory (create it if needed).
 
 ### 3. Declare the AAR + runtime dependencies
 
@@ -53,7 +53,7 @@ repositories {
 }
 
 dependencies {
-    implementation files('libs/roadsave-sdk-4.0.0.aar')
+    implementation files('libs/roadsave-sdk-4.0.0-rc.1')
 
     // Networking
     implementation 'com.squareup.okhttp3:okhttp:4.12.0'
