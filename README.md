@@ -19,10 +19,6 @@
 
 ## Installation
 
-> **Phase 1 (current):** manual AAR drop.
-> A Maven coordinate (`com.roadsave.lib:roadsave-sdk:<version>`) will replace this in the next
-> release line.
-
 ### 1. Download
 
 From the [Releases](../../releases) page, download:
