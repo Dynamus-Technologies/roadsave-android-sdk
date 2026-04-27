@@ -80,7 +80,7 @@ dependencies {
 
 For full integration steps (manifest entries, permissions, runtime initialisation):
 
-**[docs.roadsave.co.za/android/integration-guide/](https://docs.roadsave.co.za/android/integration-guide/)**
+**[docs.roadsave.co.za/android/integration-guide/](https://docs.roadsave.co.za/android/dev/integration-guide/)**
 
 ## Documentation
 
