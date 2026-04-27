@@ -1,0 +1,16 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Gradle / build artefacts (no source here, but keeps the repo clean if anyone
+# clones it for inspection alongside the source repo)
+.gradle/
+build/
+
+# JVM
+hs_err_pid*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
